@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://movie-nest-cc8eb513ed09.herokuapp.com/', '8000-sorinpan-movienest-i4cka1yq10z.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = ['movie-nest-cc8eb513ed09.herokuapp.com', '8000-sorinpan-movienest-i4cka1yq10z.ws-eu105.gitpod.io']
 
 
 # Application definition
