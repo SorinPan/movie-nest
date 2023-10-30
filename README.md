@@ -78,3 +78,20 @@
 <details><summary>Workflow Scheme</summary>
 <img src="docs/screenshots/agile-workflow.png">
 </details>
+
+### Database Scheme
+
+#### Initial Scheme
+
+**Relationships:**
+
+* The User Profile has One-to-Many relationship with the Review and Comments models. One user can write multiple reviews and comments.
+* The User Profile has also Many-to-Many relationship with the Watchlist model. Admins can create multiple watchlists.
+
+* The Movie model has One-to-Many relationship with the Review model. One movie can have multiple reviews.
+* The Movie model has Many-to-Many relationship with the Watchlist model. Movies can be in multiple watchlists.
+
+* The Review model has One-to-Many relationship with the Comments model. One review can have multiple comments.
+
+![Initial Database Scheme](/docs/screenshots/initial_schema.png)
+
