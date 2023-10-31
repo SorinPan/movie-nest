@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400&family=Oswald&display=swap');
+
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.navbar {
+    background-color: #001514;
+}
+
+a.nav-link {
+    color: #fff;
+}
+
+a.nav-link:hover {
+    color: #E50914;
+}
+
+.navbar-nav .nav-link.active {
+    color: #E50914;
+}
+
+.btn-search {
+    border: 1px solid #E50914;
+    color: #E50914;
+}
+
+.btn-search:hover {
+    background-color: #E50914;
+    color: #fff;
+    border-color: #E50914;
+}
+
+.btn-signup {
+    background-color: #E50914;
+    border-color: #E50914;
+}
+
+.btn-signup:hover {
+    background-color: #fff;
+    color: #E50914;
+}
