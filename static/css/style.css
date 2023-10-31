@@ -12,6 +12,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    color: #fff;
+}
+
 /* Header */
 
 .navbar {
@@ -65,6 +69,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid #2b2b2b;
 }
 
 .social-links {
@@ -83,3 +88,12 @@ footer {
     color: #E50914;
 }
 
+/* Intro Section */
+
+.intro {
+    min-height: 75vh;
+    background-color: #001514;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
