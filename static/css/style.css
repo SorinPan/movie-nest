@@ -46,3 +46,10 @@ a.nav-link:hover {
     background-color: #fff;
     color: #E50914;
 }
+
+.btn-signin {
+    background-color: #fff;
+    color: #E50914;
+    border-color: #fff;
+}
+
