@@ -37,6 +37,7 @@ a.nav-link:hover {
 .btn-search {
     border: 1px solid #E50914;
     color: #E50914;
+    transition: background-color 0.5s;
 }
 
 .btn-search:hover {
@@ -48,6 +49,7 @@ a.nav-link:hover {
 .btn-signup {
     background-color: #E50914;
     border-color: #E50914;
+    transition: background-color 0.5s;
 }
 
 .btn-signup:hover {
@@ -59,6 +61,31 @@ a.nav-link:hover {
     background-color: #fff;
     color: #E50914;
     border-color: #fff;
+    transition: background-color 0.5s;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    border: none;
+    transition: background-color 0.5s;
+}
+
+.navbar-toggler:hover {
+    background-color: #E50914;
+}
+
+.offcanvas {
+    background-color: #001514;
+    color: #fff;
+}
+
+.btn-close {
+    background-color: #fff;
+    transition: background-color 0.5s;
+}
+
+.form-control {
+    border: none;
 }
 
 /* Footer */
