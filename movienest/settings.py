@@ -54,6 +54,7 @@ INSTALLED_APPS = [
 
     # Apps
     'core',
+    'movies',
 
     # Others
     'crispy_forms',
