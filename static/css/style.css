@@ -14,6 +14,9 @@ html, body {
 
 body {
     color: #fff;
+    font-family: "Lato" sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -118,9 +121,13 @@ footer {
 /* Intro Section */
 
 .intro {
-    min-height: 75vh;
-    background-color: #001514;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    flex: 1;
+    background-color: #001514;
 }
