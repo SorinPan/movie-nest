@@ -8,8 +8,10 @@
     <meta name="keywords" content="watchlist, movies, reviews, actor">
     <meta name="description" content="MovieNest is the go to website to find latest reviews of movies">
     {% block css %}
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" 
     integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     {% endblock %}
 
@@ -20,20 +22,27 @@
     <title>MovieNest</title>
 </head>
 <body>
+    <!-- Start Navbar -->
     <nav class="navbar">
         <div class="container-fluid">
+          <!-- Start Menu and Search -->
           <a class="navbar-brand" href="#"><img src="{% static 'images/movienest-logo.png' %}" alt="Logo of MovieNest website" ></a>
           <div class="d-flex align-items-center col-lg-6">
+            <button class="btn btn-search-toggle d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch" aria-controls="offcanvasSearch" aria-label="Toggle search">
+              <i class="fas fa-search"></i>
+            </button>
             <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <form class="d-flex col-lg-12" role="search">
+            <form class="d-flex col-lg-12 d-none d-lg-block" role="search">
               <div class="input-group">
                 <input class="form-control" type="search" placeholder="Search MovieNest" aria-label="Search">
-                <button class="btn btn-outline-primary btn-search" type="submit">Search</button>
+                <button class="btn btn-outline-primary btn-search" type="submit"><i class="fas fa-search"></i></button>
               </div>
             </form>
           </div>
+          <!-- End Menu and Search -->
+          <!-- Start Menu Offcanvas -->
           <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
@@ -53,6 +62,23 @@
               </ul>
             </div>
           </div>
+          <!-- End Menu Offcanvas -->
+          <!-- Search offcanvas -->
+          <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasSearch" aria-labelledby="offcanvasSearchLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasSearchLabel">Search MovieNest</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Search MovieNest" aria-label="Search">
+                        <button class="btn btn-outline-primary btn-search" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+          </div>
+          <!-- End Search Offcanvas -->
           <div class="col-lg-2">
             {% if user.is_authenticated %}
             <a class="btn btn-primary shadow btn-signup" role="button" href="{% url 'account_logout' %}">Sign out</a>
@@ -70,6 +96,7 @@
         {% endblock content %}
     </main>
 
+    <!-- Start Footer -->
     <footer>
         <ul class="social-links">
             <li>
@@ -90,8 +117,9 @@
             </li>
           </ul>
           <p><i class="fa-solid fa-copyright socials"></i>SorinPan</p>
-    </footer> 
-    
+    </footer>
+    <!-- End Footer --> 
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/9d4e93963e.js" crossorigin="anonymous"></script>
 </body>
 </html>
