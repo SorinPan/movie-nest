@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path('top-rated/', views.top_rated_movies, name='top_rated_movies'),
+    path('top-rated/', views.movie_categories, {'category': 'top_rated'}, name='top_rated_movies'),
 ]

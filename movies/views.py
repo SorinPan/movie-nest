@@ -4,23 +4,29 @@ import requests
 
 API_KEY = os.environ.get("API_KEY")
 
-def top_rated_movies(request):
+def movie_categories(request, category):
     """
-    Call on the TMDB API to provide some trending movies
+    Request movie data from TMDB api based on category
     """
-    endpoint = "https://api.themoviedb.org/3/movie/top_rated"
-
-    params = {
-        "api_key": API_KEY,
-        "language": "en-US",  
-        "page": 1  
+    category_mapping = {
+        "top_rated": {
+            "url": f"https://api.themoviedb.org/3/movie/top_rated?api_key={API_KEY}&language=en-US&page",
+            "template": "movies/top_rated.html",
+        }
     }
 
-    response = requests.get(endpoint, params=params)
+    category_info = category_mapping.get(category)
 
-    if response.status_code == 200:
-        top_rated_movies = response.json().get("results", [])
-        return render(request, 'movies/top_rated.html', {'top_rated_movies': top_rated_movies})
+    if category_info:
+        url = category_info["url"]
+        template_name = category_info["template"]
+        response = requests.get(url)
+        movie_info = response.json()
+
+        context = {
+            "movie_info": movie_info,
+        }
+
+        return render(request, template_name, context)
     else:
-        error_message = f"API request failed with status code {response.status_code}"
-        return render(request, 'movies/error.html', {'error_message': error_message})
+        return ("Something went wrong!")
