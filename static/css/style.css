@@ -82,6 +82,12 @@ a.nav-link:hover {
     color: #fff;
 }
 
+.offcanvas-body-menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .btn-close {
     background-color: #fff;
     transition: background-color 0.5s;
