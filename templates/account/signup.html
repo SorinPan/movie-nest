@@ -6,11 +6,11 @@
 {% block content %}
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">{{ _('Sign Up') }}</div>
+            <div class="auth-container col-md-4">
+                
+                    <h1 class="auth-heading">{% trans "Create account" %}</h1>
 
-                    <div class="card-body">
+                    <div class="row">
                         <form method="post" action="{% url 'account_signup' %}">
                             {% csrf_token %}
 
@@ -20,22 +20,20 @@
                                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                             {% endif %}
                             
-                            <div class="form-group row mb-0">
-                                <div class="col-md-6 offset-md-4">
-                                    <button type="submit" class="btn btn-primary">
-                                        {{ _('Sign Up') }}
-                                    </button>
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary btn-auth">{% trans "Create your MovieNest account" %}</button>
                                 </div>
                             </div>
                         </form>
 
                         <div class="text-center mt-3">
                             {% blocktrans %}
-                                Already have an account? Then please <a href="{{ login_url }}">sign in</a>.
+                                Already have an account? Then please <a href="{{ login_url }}">Sign in</a>.
                             {% endblocktrans %}
                         </div>
                     </div>
-                </div>
+    
             </div>
         </div>
     </div>
