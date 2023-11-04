@@ -6,12 +6,12 @@
 {% block content %}
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">{{ _('Sign In') }}</div>
+            <div class="auth-container col-md-4">
+                
+                    <h1 class="auth-heading">{% trans "Sign In" %}</h1>
 
-                    <div class="card-body">
-                        <form method="post" action="{% url 'account_login' %}">
+                    <div class="row">
+                        <form method="POST" action="{% url 'account_login' %}">
                             {% csrf_token %}
 
                             {{ form|crispy }}
@@ -20,21 +20,23 @@
                                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                             {% endif %}
                             
-                            <div class="form-group d-flex justify-content-center">
-                                <div class="col-md-6 offset-md-4">
-                                    <button type="submit" class="btn btn-primary">
-                                        {{ _('Sign In') }}
-                                    </button>
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary btn-auth">{% trans "Sign In" %}</button>
                                 </div>
                             </div>
                         </form>
 
                         <div class="text-center mt-3">
-                            {% trans "If you have not created an account yet, then please" %}
-                            <a href="{% url 'account_signup' %}">{% trans "sign up" %}</a>.
+                            <div class="d-flex align-items-center">
+                                <hr class="divider-line">
+                                <span class="divider-text">{% trans "New to MovieNest" %}?</span>
+                                <hr class="divider-line">
+                            </div>
+                            <a class="btn btn-primary shadow btn-auth" role="button" href="{% url 'account_signup' %}">{% trans "Create your MovieNest account" %}</a>
                         </div>
                     </div>
-                </div>
+                
             </div>
         </div>
     </div>

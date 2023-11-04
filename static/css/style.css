@@ -19,6 +19,10 @@ body {
     flex-direction: column;
 }
 
+.btn {
+    border: none;
+}
+
 /* Header */
 
 .navbar {
@@ -136,4 +140,37 @@ footer {
 main {
     flex: 1;
     background-color: #001514;
+}
+
+/* Authentication Forms */
+
+.auth-container {
+    border: 1px solid #2b2b2b;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.auth-heading {
+    margin-bottom: 1.5rem;
+}
+
+.asteriskField {
+    display: none;
+}
+
+.divider-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #2b2b2b;
+}
+
+.divider-text {
+    color: #767676;
+    margin: 0 10px;
+}
+
+.btn-auth {
+    width: 100%;
+    background-color: #E50914;
+    border: none;
 }
