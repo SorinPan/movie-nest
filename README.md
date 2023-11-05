@@ -223,3 +223,11 @@ The wireframes were created with [Balsamiq](https://balsamiq.com/). My initial i
     ![Sign Up Wireframe Mobile](docs/wireframes/signup-mobile.png)
 
     </details>
+    
+### Surface Plane
+
+#### Color Scheme
+
+![Color Scheme](docs/screenshots/color-scheme.png)
+
+I thought a darker theme would fit the website perfectly and it would give a nice minimal look. I also choose Red since it attracts the most attention and is associated with strong emotions. All the main text on the website is white, which adds some nice contrast.
