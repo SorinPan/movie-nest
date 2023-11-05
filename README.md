@@ -10,15 +10,28 @@ MovieNest is a website made for movie made for movie enthusiasts. It is a full s
 
 ## Agile Development
 
+The project was developed using an agile workflow and agile principles. Jira was the tool used to keep all of it together. Epics, user stories and developer stories were created and then added to the backlog. The backlog is were the stories are reviewed, refined and then committed for development. 
+
 ### Workflow
 
 <details><summary>Backlog</summary>
 <img src="docs/screenshots/backlog.png">
 </details>
 
+Jira's backlog feature was used in combination with the Kanban template. The stories start in the backlog after they are created. Here they are assigned to Epics and prioritized using the MoSCoW method. Subtasks and Acceptance criteria are added to the user stories in an effort to better outline the requirements for each story to be completed. Story points are also assigned to estimate the overall effort required to complete a user story.
+
 <details><summary>Board</summary>
 <img src="docs/screenshots/agile-board.png">
 </details>
+
+After a user story is refined, it is sent to the Board.
+
+- Committed for Dev: This status is used for refined stories that are ready to be worked on.
+- In Progress: The user stories that are currently in progress.
+- In Review: This status is used to review the code one more time before testing.
+- In Testing: This status is used for manual testing.
+- Deployed: Deployed to Heroku to see that everything works in production ( Note that I didn't deployed after each story was completed).
+- Done: Completed user stories.
 
 <details><summary>Workflow Scheme</summary>
 <img src="docs/screenshots/agile-workflow.png">
