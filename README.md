@@ -239,3 +239,38 @@ I thought a darker theme would fit the website perfectly and it would give a nic
 - **Cinzel -** Used for headings mainly. It's an elegant and decorative font and I think it gives a sense of sophistication and style to the website.
 - **Lato -** Used for the main text on the website. It's a popular font with a clean and modern look. I felt like it's a safe choice and very suitable for displaying content in a clear manner.
 - **Quicksand -** Only used for the websites logo. Since it's a playful and friendly font, I felt like it suits the website overall.
+
+#### Imagery
+
+---
+
+## Features
+
+---
+
+## Technologies Used
+
+### Languages
+
+HTML, CSS, JavaScript, Python.
+
+### Frameworks
+
+- [Django](https://www.djangoproject.com/) - Version 4.2.6 - A Python web framework that is used for rapid development.
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - Version 5.3.2 - A framework for building responsive.
+
+### Libraries
+
+- [dj_databsae_url](https://pypi.org/project/dj-database-url/) - Version 2.1.0. Allows to utilise the DATABASE_URL variable.
+- [gunicorn](https://pypi.org/project/gunicorn/) - Version 21.2.0. A Python WSGI HTTP Server.
+- [psycopg2](https://pypi.org/project/psycopg2/) - Version 2.9.9. Allows connection with postgres database
+- [Font Awesome](https://fontawesome.com/) - Version 6.4.2 - Used to integrate icons in the website.
+### Other Tools
+
+- [Git](https://git-scm.com/) - For version control.
+- [GitHub](https://github.com/) - To save and store the files for this project.
+- [ElephantSQL](https://www.elephantsql.com/) - For database.
+- [Heroku](https://www.heroku.com/) - For deployment.
+- [Gitpod](https://www.gitpod.io/) - For development.
+- [Obsidian](https://obsidian.md/) - For notes.
+- [Balsamiq](https://balsamiq.com/) - For wireframes.
