@@ -174,3 +174,23 @@ main {
     background-color: #E50914;
     border: none;
 }
+
+/* Movie Lists */
+
+.movie-list {
+    border: 1px solid #2b2b2b;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.movie-info {
+    display: flex;
+}
+
+.movie-info img {
+    border-radius: 5px;
+}
+
+.details {
+    margin-left: 1rem;
+}
