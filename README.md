@@ -37,7 +37,27 @@ After a user story is refined, it is sent to the Board.
 <img src="docs/screenshots/agile-workflow.png">
 </details>
 
+---
+
 ## User Experience(UX)
+
+### Strategy Plane
+
+#### Project Goals
+
+- To develop a user-friendly and responsive website that makes it easy to get information about different movies.
+- To provide users with the ability to easily see what movies are trending/top rated.
+- To provide users with the ability to easily search for movies by keywords or titles.
+- To provide users with the ability to create a profile and add movies to "Favorites".
+- To allow registered users to review movies and comment on other reviews and watchlists.
+- To provide registered users the ability to edit or delete their profiles, reviews and comments.
+
+#### Target Audience
+
+- **Movie Enthusiasts:** Someone who has a strong passion for movies and is always on the lookout for the latest releases or classic films.
+- **Casual Movie Viewers:** Someone who enjoys watching movies, but is not so involved in the film community.
+- **Film Critics and Reviewers:** Professional critics who want to share their insight with others.
+- **Users Looking for Movie Recommendations:** Movie watchers that want a good recommendation for a Sunday evening movie session.
 
 ### User Stories
 
