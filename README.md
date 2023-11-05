@@ -2,15 +2,29 @@
 
 ## Introduction
 
-
+MovieNest is a website made for movie made for movie enthusiasts. It is a full stack project built with Django framwork for the backend. HTML, CSS and JavaScript are used for the projects front-end part. Bootstrap is also used for design and responsive development. MovieNest allows users to easily see top rated and trending movies. Users are also able to create accounts and submit reviews of movies already watched, as well as reading and commenting reviews made by others.The website also features the posibility to add interesting movies to "favorites".
 
 [MovieNest Live Website](https://movie-nest-cc8eb513ed09.herokuapp.com/)
 
 ---
 
-## User Experience(UX)
+## Agile Development
 
-### Agile Development
+### Workflow
+
+<details><summary>Backlog</summary>
+<img src="docs/screenshots/backlog.png">
+</details>
+
+<details><summary>Board</summary>
+<img src="docs/screenshots/agile-board.png">
+</details>
+
+<details><summary>Workflow Scheme</summary>
+<img src="docs/screenshots/agile-workflow.png">
+</details>
+
+## User Experience(UX)
 
 ### User Stories
 
@@ -64,20 +78,6 @@
 
 * **User Story: As an admin, I want to create, edit, and delete watchlists.**
 * **User Story: As a registered user, I want to view and comment on different watchlists.**
-
-### Workflow
-
-<details><summary>Backlog</summary>
-<img src="docs/screenshots/backlog.png">
-</details>
-
-<details><summary>Board</summary>
-<img src="docs/screenshots/agile-board.png">
-</details>
-
-<details><summary>Workflow Scheme</summary>
-<img src="docs/screenshots/agile-workflow.png">
-</details>
 
 ### Database Scheme
 
