@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Trending Movies
+{% endblock title %}
+
+{% block content %}
+<div class="container trending mt-4">
+    <h1>Trending Movies</h1>
+    <div class="movie-list mt-3">
+        {% for movie in movie_info.results %}
+            <div class="movie-item">
+                <div class="movie-info">
+                    <img src="{% if movie.poster_path %}https://image.tmdb.org/t/p/w185/{{ movie.poster_path }}{% else %}/path/to/placeholder/image{% endif %}" height="150" alt="{{ movie.title }}">
+                    <div class="details">
+                        <h5>{{ movie.title }}</h5>
+                        <p>Release Date: {{ movie.release_date }}</p>
+                        <p>Certification: {{ movie.certification }}</p>
+                        <p>Duration: {{ movie_info.runtime }} minutes</p>
+                    </div>
+                </div>
+            </div>
+            {% if not forloop.last %}
+                <hr class="movie-divider">
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}

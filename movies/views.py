@@ -12,7 +12,11 @@ def movie_categories(request, category, page_number=1):
         "top_rated": {
             "url": f"https://api.themoviedb.org/3/movie/top_rated?api_key={API_KEY}&language=en-US&page={page_number}",
             "template": "movies/top_rated.html",
-        }
+        },
+        "trending": {
+            "url": f"https://api.themoviedb.org/3/trending/movie/week?api_key={API_KEY}",
+            "template": "movies/trending.html",
+        },
     }
 
     category_info = category_mapping.get(category)
