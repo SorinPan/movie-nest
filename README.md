@@ -231,3 +231,11 @@ The wireframes were created with [Balsamiq](https://balsamiq.com/). My initial i
 ![Color Scheme](docs/screenshots/color-scheme.png)
 
 I thought a darker theme would fit the website perfectly and it would give a nice minimal look. I also choose Red since it attracts the most attention and is associated with strong emotions. All the main text on the website is white, which adds some nice contrast.
+
+#### Typography
+
+![Typography](docs/screenshots/typography.png)
+
+- **Cinzel -** Used for headings mainly. It's an elegant and decorative font and I think it gives a sense of sophistication and style to the website.
+- **Lato -** Used for the main text on the website. It's a popular font with a clean and modern look. I felt like it's a safe choice and very suitable for displaying content in a clear manner.
+- **Quicksand -** Only used for the websites logo. Since it's a playful and friendly font, I felt like it suits the website overall.
