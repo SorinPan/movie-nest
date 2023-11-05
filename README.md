@@ -112,6 +112,34 @@ After a user story is refined, it is sent to the Board.
 * **User Story: As an admin, I want to create, edit, and delete watchlists.**
 * **User Story: As a registered user, I want to view and comment on different watchlists.**
 
+### Scope Plane
+
+#### Features Planning
+
+|User Type | Feature | Importance | Viability |  | Delivered |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| | User roles (Admin, Registered User, Guest) | 5 | 5 | MVP |  |
+| Guest | Register for an account | 4 | 5 | MVP |  |
+| All | Search for movies by keywords or titles | 4 | 5 | MVP |  |
+| All | View top-rated movies | 4 | 4 | MVP |  |
+| All | View trending movies | 4 | 4 | MVP | |
+| Registered User | View movie details | 4 | 5 | MVP |  |
+| Registered User & Admin | Sign in/Sign out | 4 | 5 | MVP |  |
+| Registered User | User profile | 4 | 5 | MVP |  |
+| Registered User | Edit profile | 3 | 4 | MVP |  |
+| Registered User & Admin | Delete account | 3 | 4 | MVP |  |
+| Registered User | Leave reviews for movies | 4 | 5 | MVP |  |
+| Registered User | Comment on movie reviews | 3 | 4 | MVP |  |
+| Registered User | Like movies(add to favorites) | 3 | 4 | MVP |  |
+| Registered User | View like movies(favorites) | 3 | 4 | MVP |  |
+| Registered User | Edit and delete own reviews | 4 | 4 | MVP |  |
+| Registered User | Edit and delete own comments | 3 | 3 | MVP | |
+| Admin | Admin panel for website management | 4 | 4 | MVP |  |
+| Admin | Create and manage watchlists | 4 | 4 | MVP |  |
+| Admin | Delete reviews/comments | 3 | 5 | MVP |  |
+| Registered User | View new movie releases | 2 | 3 | |  |
+| Registered User | Advanced search filters (e.g., genre, release year) | 1 | 3 | |  |
+
 ### Database Scheme
 
 #### Initial Scheme
