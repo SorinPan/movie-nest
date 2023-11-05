@@ -140,9 +140,9 @@ After a user story is refined, it is sent to the Board.
 | Registered User | View new movie releases | 2 | 3 | |  |
 | Registered User | Advanced search filters (e.g., genre, release year) | 1 | 3 | |  |
 
-### Database Scheme
+### Structure Plane
 
-#### Initial Scheme
+#### Initial Database Scheme
 
 **Relationships:**
 
@@ -156,3 +156,70 @@ After a user story is refined, it is sent to the Board.
 
 ![Initial Database Scheme](/docs/screenshots/initial_schema.png)
 
+### Skeleton Plane
+
+#### Wireframes
+
+The wireframes were created with [Balsamiq](https://balsamiq.com/). My initial idea for the websites structure. Not all features were structured with wireframes.
+
+- Desktop
+
+    Home Page
+
+    ![Home Page Wireframe Desktop](docs/wireframes/home-desktop.png)
+
+    Trending/Top Rated
+
+    ![Trending/Top Rated Wireframe Desktop](docs/wireframes/trending-desktop.png)
+
+    Movie Details
+
+    ![Movie Details Wireframe Desktop](docs/wireframes/movie-detail-desktop.png)
+
+    Review Details
+
+    ![Review Details Wireframe Desktop](docs/wireframes/review-detail-desktop.png)
+
+    Watchlists
+
+    ![Watchlists Wireframe Desktop](docs/wireframes/watchlists-dekstop.png)
+
+    Sign In
+
+    ![Sign In Wireframe Desktop](docs/wireframes/signin-desktop.png)
+
+    Sign Up
+
+    ![Sign Up Wireframe Desktop](docs/wireframes/signup-desktop.png)
+
+- <details><summary>Mobile</summary>
+
+    Home Page
+
+    ![Home Page Wireframe Mobile](docs/wireframes/home-mobile.png)
+
+    Trending/Top Rated
+
+    ![Trending/Top Rated Wireframe Mobile](docs/wireframes/trending-mobile.png)
+
+    Movie Details
+
+    ![Movie Details Wireframe Mobile](docs/wireframes/movie-detail-mobile.png)
+
+    Review Details
+
+    ![Review Details Wireframe Mobile](docs/wireframes/review-detail-mobile.png)
+
+    Watchlists
+
+    ![Watchlists Wireframe Mobile](docs/wireframes/watchlists-mobile.png)
+
+    Sign In
+
+    ![Sign In Wireframe Mobile](docs/wireframes/signin-mobile.png)
+
+    Sign Up
+
+    ![Sign Up Wireframe Mobile](docs/wireframes/signup-mobile.png)
+
+    </details>
