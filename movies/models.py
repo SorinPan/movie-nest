@@ -4,7 +4,7 @@ class Movie(models.Model):
     """
     Model for movie
     """
-    movie_id = CharField(max_length=25, unique=True)
+    movie_id = models.CharField(max_length=25, unique=True)
     title = models.CharField(max_length=255)
     overview = models.TextField()
     release_date = models.DateField()
