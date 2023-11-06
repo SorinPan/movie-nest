@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %} Movie Details{% endblock %}
+{% block content %}
+<section class="movie-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="{% if movie_data.poster_path %}https://image.tmdb.org/t/p/w500/{{ movie_data.poster_path }}{% else %}/path/to/placeholder/image{% endif %}"
+                    class="img-fluid rounded" alt="{{ movie_data.Name }}">
+            </div>
+            <div class="col-lg-8">
+                <h1 class="mt-4">{{ movie_data.Name }}</h1>
+                <p><strong>Director:</strong> {{ movie_data.Director|default:"N/A" }}</p>
+                <p><strong>Runtime:</strong> {{ movie_data.Runtime|default:"N/A" }} minutes</p>
+                <p><strong>Release Date:</strong> {{ movie_data.Released|date:"F j, Y"|default:"N/A" }}</p>
+                <p><strong>Overview:</strong> {{ movie_data.Overview|default:"N/A" }}</p>
+                <p><strong>Certification:</strong> {{ certification|default:"N/A" }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
