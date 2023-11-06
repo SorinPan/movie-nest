@@ -274,3 +274,20 @@ HTML, CSS, JavaScript, Python.
 - [Gitpod](https://www.gitpod.io/) - For development.
 - [Obsidian](https://obsidian.md/) - For notes.
 - [Balsamiq](https://balsamiq.com/) - For wireframes.
+
+---
+
+## Credits
+
+- [Django Docs](https://docs.djangoproject.com/en/4.2/)
+
+- [Django 3.0 Tutorial IMDB clone](https://www.youtube.com/watch?v=FawGmAas4h0&list=PL9tgJISrBWc6ktmvTSLGrn055XzVb0OwZ&index=1)
+
+- [Django Recipe Sharing Tutorial](https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=1)
+
+- [Slack](https://slack.com/intl/en-ie/)
+
+- [TMDB docs](https://developer.themoviedb.org/docs)
+
+- CI Project Checklist
+
